@@ -1,12 +1,30 @@
-# React + Vite
+# Air Fryer Order Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React component embedding a “guess the price” interest form for Spidr Design’s newest Air Fryer—styled to match [spidr.design](https://spidr.design/) and easily embeddable on a landing page.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📋 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **First Name & Last Name**  
+  - Only letters allowed, minimum 2 characters each  
+- **Phone Number**  
+  - Auto-formats as `###-###-####` while typing  
+- **Email Address**  
+  - Must include an `@` character  
+- **Guess the Air Fryer’s Cost**  
+  - Auto-formats into a USD integer (e.g. `$1,234`)  
+- **16-digit Spidr PIN**  
+  - Masked with `#` placeholders and dashes: `####-####-####-####`  
+- **Client-side validation**  
+  - Prevents submission until all fields are valid  
+  - On submit, prints the collected data to the console  
+- **Responsive, two-column layout**  
+  - First & Last name side-by-side; other fields full-width  
+- **Animations & hover effects**  
+  - Subtle card pop on hover, focus ring on inputs  
+- **Matches Spidr Design’s visual identity**  
+  - Dark grey card, bright teal border (`#54aabd`), Raleway font  
+
+---
