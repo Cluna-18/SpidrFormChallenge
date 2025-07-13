@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import spidrLogo from './assets/final-spidr-logo.png'
+import spidrLogo from './Assets/final-spidr-logo.png'
 import './App.css'
 
 export default function SpidrFormChallenge() {
